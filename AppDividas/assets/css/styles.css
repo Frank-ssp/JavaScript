@@ -35,10 +35,16 @@ input[type="text"] {
 .task-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 
 :checked + label {
   text-decoration: line-through;
-  color: grey;
+  color: rgb(99, 91, 91);
 }
+
+label{
+  margin-left: 3%;
+  margin-right: 7%;
+}
+
