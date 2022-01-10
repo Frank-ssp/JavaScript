@@ -4,27 +4,30 @@
   font-family: "Open Sans", sans-serif;
 }
 
+button {
+  height: 40px;
+  width: 140px;
+  border: 2px solid lightcoral;
+  background-color: rgb(241, 214, 214);
+  color: lightcoral;
+  font-size: 16pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: rgb(177, 225, 255);
 }
 
-button {
-  border: 1px solid rgb(105, 197, 255);
-  border-radius: 5px;
-  background-color: rgb(227, 248, 255);
-  color: rgb(105, 197, 255);
-  text-align: center;
-  padding: 5px;
-}
-
-input[type="text"] {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid black;
-}
 
 #tasks {
   display: flex;
